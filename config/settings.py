@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'apps.users',
-    'psycopg2'
+    'psycopg2',
+    'apps.certificates',
+    'apps.utils',
 ]
 
 MIDDLEWARE = [
