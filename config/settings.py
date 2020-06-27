@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'psycopg2',
     'apps.certificates',
     'apps.utils',
+    'apps.waitlist',
 ]
 
 MIDDLEWARE = [
