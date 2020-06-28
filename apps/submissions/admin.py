@@ -5,8 +5,8 @@ from .models import StudentSubmission
 # Register your models here.
 class AdminStudentSubmission(admin.ModelAdmin):
     list_display = ('get_student', 'get_project', 'approved')
-    #list_filter = ('project__title',)
-    #search_fields = ('student_name',)
+    list_filter = ('project__title',)
+    search_fields = ('student__name',)
 
     # to refer to foreign data
     def get_project(self, obj):
