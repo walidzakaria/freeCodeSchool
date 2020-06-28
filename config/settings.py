@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'apps.utils',
     'apps.waitlist',
     'apps.lectures',
+    'apps.projects',
+    'apps.submissions',
 ]
 
 MIDDLEWARE = [
